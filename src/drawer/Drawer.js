@@ -14,6 +14,7 @@ export default class Drawer extends Component {
     this.navigate = this.navigate.bind(this);
     this.subscribeToDrawerEvents = this.subscribeToDrawerEvents.bind(this);
 
+    // Subsribe to drawer events
     DrawerEvents.subscribe(this.subscribeToDrawerEvents);
 }
 
